@@ -13,7 +13,7 @@ This repository provides all publicly shareable datasets and tools developed in 
 
 * **Size:** \~5 million words
 * **Source:** 32,835 Wikipedia articles (dump date 2024-02-20)
-* **Description:** Each article is fully diacritized by our best-performing BiLSTM model.
+* **Description:** Each article is fully diacritized by our best-performing BiLSTM model (with a Word Error Rate of ~3% on WikiNews-2014).
 * **Format:** JSONL (one article per line).
 
 ### 2. WikiNews Benchmarks
