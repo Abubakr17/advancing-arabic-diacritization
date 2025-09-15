@@ -69,7 +69,7 @@ The script reports both **WER** and **DER**, with or without multi-reference mod
 If you use these datasets or scripts, please cite:
 
 ```
-@inproceedings{advancing-arabic-diacritization,
+@inproceedings{mohamed2025Advancing,
   title     = {Advancing Arabic Diacritization: Improved Datasets, Benchmarking, and State-of-the-Art Models},
   author    = {Mohamed, Abubakr and Mubarak, Hamdy},
   booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
