@@ -69,13 +69,23 @@ The script reports both **WER** and **DER**, with or without multi-reference mod
 If you use these datasets or scripts, please cite:
 
 ```
-@inproceedings{mohamed2025Advancing,
-  title     = {Advancing Arabic Diacritization: Improved Datasets, Benchmarking, and State-of-the-Art Models},
-  author    = {Mohamed, Abubakr and Mubarak, Hamdy},
-  booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
-  year      = {2025}
+@inproceedings{mohamed-mubarak-2025-advancing,
+    title = "Advancing {A}rabic Diacritization: Improved Datasets, Benchmarking, and State-of-the-Art Models",
+    author = "Mohamed, Abubakr  and
+      Mubarak, Hamdy",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.846/",
+    doi = "10.18653/v1/2025.emnlp-main.846",
+    pages = "16718--16730",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Arabic diacritics, similar to short vowels in English, provide phonetic and grammatical information but are typically omitted in written Arabic, leading to ambiguity. Diacritization (aka diacritic restoration or vowelization) is essential for natural language processing. This paper advances Arabic diacritization through the following contributions: first, we propose a methodology to analyze and refine a large diacritized corpus to improve training quality. Second, we introduce WikiNews-2024, a multi-reference evaluation methodology with an updated version of the standard benchmark ``WikiNews-2014''. In addition, we explore various model architectures and propose a BiLSTM-based model that achieves state-of-the-art results with 3.12{\%} and 2.70{\%} WER on WikiNews-2014 and WikiNews-2024, respectively. Moreover, we develop a model that preserves user-specified diacritics while maintaining accuracy. Lastly, we demonstrate that augmenting training data enhances performance in low-resource settings."
 }
 ```
-
-(A final BibTeX entry will be added once the paper is published.)
-
